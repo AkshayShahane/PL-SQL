@@ -1,0 +1,9 @@
+--Program to display the weekday of entered date
+DECLARE
+	x date;
+BEGIN
+	x:='&date';
+	
+	dbms_output.put_line(to_char(x,'day'));
+END;
+/
